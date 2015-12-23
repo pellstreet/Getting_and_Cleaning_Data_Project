@@ -21,20 +21,20 @@ List of raw data files used in the Course Project analysis
 
 * from the training data
 
-       subject_train.txt : Each row identifies the subject who performed the activity for each window sample (from 1 to 30).
-       X_train.txt :  Training Set.
-       y_train.txt :  Training Labels.
+       * subject_train.txt : Each row identifies the subject who performed the activity for each window sample (from 1 to 30).
+       * X_train.txt :  Training Set.
+       * y_train.txt :  Training Labels.
 
 * from the test data
 
-       subject_test.txt : Each row identifies the subject who performed the activity for each window sample(from 1 to 30).
-       X_test.txt  : Test Set.
-       y_test.txt  : Test Labels.
+       * subject_test.txt : Each row identifies the subject who performed the activity for each window sample(from 1 to 30).
+       * X_test.txt  : Test Set.
+       * y_test.txt  : Test Labels.
 
 * from the UCI HAR Dataset folder
 
-       activity_labels.txt   : Links the class labels with their activity name.
-       features.txt   :   List of all features.
+       * activity_labels.txt   : Links the class labels with their activity name.
+       * features.txt   :   List of all features.
 
 #VARIABLES USED IN THE R SCRIPT
 

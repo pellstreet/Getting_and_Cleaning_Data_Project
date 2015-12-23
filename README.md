@@ -25,7 +25,7 @@ The raw data set will be cleaned and tidied up using an R script called run_anal
 #LIST OF FILES PROVIDED IN THE REPO
 
 * run_analysis.R - R script see project summary above
-* tidy.txt - tidy dataset generated using run_analysis.R
+* tidy.txt - tidy data set generated using run_analysis.R
 * CodeBook.md - a code book that describes the variables, the data, and any transformations or work preformed to clean up the data
 * README.md - this file
 
