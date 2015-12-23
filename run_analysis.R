@@ -99,6 +99,6 @@ tidy<-tidy[c(2,1,3:81)]
 
 setwd(wodi)
 
-write.table(tidy, './tidy.txt',row.names=TRUE,sep='\t')
+write.table(tidy, './tidy.txt',row.names=FALSE,sep='\t')
 
 
