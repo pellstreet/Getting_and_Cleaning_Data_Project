@@ -39,7 +39,7 @@ List of raw data files used in the Course Project analysis
 #VARIABLES USED IN THE R SCRIPT
 
 * test_m ,  train_m : contain the merged data (cbind) from the corresponding test and training raw data set (3 .txt files merged for each variable).
-* dataset : is a dataframe with merged (rbind) data from test_m and train_m. Note that the 'dataset' variable is transformed throughout the script, see next chapter.
+* dataset : is a dataframe with merged (rbind) data from test_m and train_m. Note that the 'dataset' variable is transformed throughout the script, see chapter R SCRIPT
 * all_names :  contains the correct column names for the  merged  data set, note that this vector contains also names for the "subject" and "activity" columns.
                The "subject" column contains an ID (from 1 to 30) representing each volunteer who took the test, the "activity" column is a list of 6 activities performed by the volunteers
                (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
@@ -61,6 +61,91 @@ List of raw data files used in the Course Project analysis
 * a second, independent tidy data set (tidy) with the average of each variable for each activity and each subject was generated. Tidy contains 180 rows by 81 colulmns.
 * the tidy data frame is written to a .txt file called tidy.txt.
 
-#OTHER INFO
+#TIDY DATA SET COLUMN VARIABLE NAMES
 
-A description of the labels used for the variable names in the tidy data set is available in the features_info.txt file located in the 'UCI HAR Dataset' folder in the raw dataset.
+Here below is alist of colum variable names for the tidy data set
+
+subject
+activity
+tBodyAccMean-X
+tBodyAccMean-Y
+tBodyAccMean-Z
+tBodyAccStd-X
+tBodyAccStd-Y
+tBodyAccStd-Z
+tGravityAccMean-X
+tGravityAccMean-Y
+tGravityAccMean-Z
+tGravityAccStd-X
+tGravityAccStd-Y
+tGravityAccStd-Z
+tBodyAccJerkMean-X
+tBodyAccJerkMean-Y
+tBodyAccJerkMean-Z
+tBodyAccJerkStd-X
+tBodyAccJerkStd-Y
+tBodyAccJerkStd-Z
+tBodyGyroMean-X
+tBodyGyroMean-Y
+tBodyGyroMean-Z
+tBodyGyroStd-X
+tBodyGyroStd-Y
+tBodyGyroStd-Z
+tBodyGyroJerkMean-X
+tBodyGyroJerkMean-Y
+tBodyGyroJerkMean-Z
+tBodyGyroJerkStd-X
+tBodyGyroJerkStd-Y
+tBodyGyroJerkStd-Z
+tBodyAccMagnitudenitudeMean
+tBodyAccMagnitudenitudeStd
+tGravityAccMagnitudenitudeMean
+tGravityAccMagnitudenitudeStd
+tBodyAccJerMagnitudeMean
+tBodyAccJerMagnitudeStd
+tBodyGyroMagnitudeMean
+tBodyGyroMagnitudeStd
+tBodyGyroJerMagnitudeMean
+tBodyGyroJerMagnitudeStd
+fBodyAccMean-X
+fBodyAccMean-Y
+fBodyAccMean-Z
+fBodyAccStd-X
+fBodyAccStd-Y
+fBodyAccStd-Z
+fBodyAccMeanFreq-X
+fBodyAccMeanFreq-Y
+fBodyAccMeanFreq-Z
+fBodyAccJerkMean-X
+fBodyAccJerkMean-Y
+fBodyAccJerkMean-Z
+fBodyAccJerkStd-X
+fBodyAccJerkStd-Y
+fBodyAccJerkStd-Z
+fBodyAccJerkMeanFreq-X
+fBodyAccJerkMeanFreq-Y
+fBodyAccJerkMeanFreq-Z
+fBodyGyroMean-X
+fBodyGyroMean-Y
+fBodyGyroMean-Z
+fBodyGyroStd-X
+fBodyGyroStd-Y
+fBodyGyroStd-Z
+fBodyGyroMeanFreq-X
+fBodyGyroMeanFreq-Y
+fBodyGyroMeanFreq-Z
+fBodyAccMagnitudenitudeMean
+fBodyAccMagnitudenitudeStd
+fBodyAccMagnitudenitudeMeanFreq
+fBodyBodyAccJerMagnitudeMean
+fBodyBodyAccJerMagnitudeStd
+fBodyBodyAccJerMagnitudeMeanFreq
+fBodyBodyGyroMagnitudeMean
+fBodyBodyGyroMagnitudeStd
+fBodyBodyGyroMagnitudeMeanFreq
+fBodyBodyGyroJerMagnitudeMean
+fBodyBodyGyroJerMagnitudeStd
+fBodyBodyGyroJerMagnitudeMeanFreq
+
+A description of the above variable names can be found in the features_info.txt file located in the 'UCI HAR Dataset' folder in the raw dataset.
+For a description of the "subject" and "activity" variables see chapter VARIABLES USED IN THE R SCRIPT
