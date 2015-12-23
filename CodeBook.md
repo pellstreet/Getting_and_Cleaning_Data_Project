@@ -51,11 +51,11 @@ List of raw data files used in the Course Project analysis
 
 * The raw data is downloaded and unzipped in the working directory.
 * The script reads in the activity labels (ac_lab).
-* The script reads in the features (column names) of the dataset (total:561), some of the features names are amended to make them more descriptive.
+* The script reads in the features (column names) of the data set (total:561), some of the features names are amended to make them more descriptive.
 * "subject" and "activity" names are appended to the features vector, to generate a list of names (all_names) for the merged data set (dataset).
 * The .txt files from the test and training folders are imported and merged together, a 10,299 rows by 563 columns is generated.
 * the column names (all_names) are added to the merged data set(dataset).
-* the merged data set is initially cleaned up, data set is ordered by "subject" and "activity" and activity column is moved next to the subject column.
+* the merged data set is initially cleaned up, dataset is ordered by "subject" and "activity" and activity column is moved next to the subject column.
 * the activity names are replaced using descriptive names (1 to 6 is replaced by WALKING.....LAYING) using the ac_lab  data frame.
 * only the measurements on the mean and standard deviation for each measurement were extracted from the dataset.
 * a second, independent tidy data set (tidy) with the average of each variable for each activity and each subject was generated. Tidy contains 180 rows by 81 colulmns.
@@ -63,4 +63,4 @@ List of raw data files used in the Course Project analysis
 
 #OTHER INFO
 
-A description of the labels used for the variable names in the tidy data set is available in the features_info.txt file located in the 'UCI HAR Dataset' folder.
+A description of the labels used for the variable names in the tidy data set is available in the features_info.txt file located in the 'UCI HAR Dataset' folder in the raw dataset.
