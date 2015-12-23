@@ -63,13 +63,13 @@ List of raw data files used in the Course Project analysis
 
 #TIDY DATA SET COLUMN VARIABLE NAMES
 
-Here below is alist of colum variable names for the tidy data set
+Here below is a list of colum variable names for the tidy data set
 
 subject
 activity
 tBodyAccMean-X
 tBodyAccMean-Y
-tBodyAccMean-Z
+tBodyAccMean-Z  
 tBodyAccStd-X
 tBodyAccStd-Y
 tBodyAccStd-Z
