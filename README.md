@@ -16,18 +16,18 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 The raw data set will be cleaned and tidied up using an R script called run_analysis.R. The R script does the following.
 
--Merges the training and the test sets to create one data set.
--Extracts only the measurements on the mean and standard deviation for each measurement.
--Uses descriptive activity names to name the activities in the data set
--Appropriately labels the data set with descriptive variable names.
--Creates a second, independent tidy data set with the average of each variable for each activity and each subject (tidy.txt).
+* Merges the training and the test sets to create one data set.
+* Extracts only the measurements on the mean and standard deviation for each measurement.
+* Uses descriptive activity names to name the activities in the data set
+* Appropriately labels the data set with descriptive variable names.
+* Creates a second, independent tidy data set with the average of each variable for each activity and each subject (tidy.txt).
 
 #LIST OF FILES PROVIDED IN THE REPO
 
-*run_analysis.R - R script see project summary above
-*tidy.txt - tidy dataset generated using run_analysis.R
-*CodeBook.md - a code book that describes the variables, the data, and any transformations or work preformed to clean up the data
-*README.md - this file
+* run_analysis.R - R script see project summary above
+* tidy.txt - tidy dataset generated using run_analysis.R
+* CodeBook.md - a code book that describes the variables, the data, and any transformations or work preformed to clean up the data
+* README.md - this file
 
 #OTHER INFO
 
